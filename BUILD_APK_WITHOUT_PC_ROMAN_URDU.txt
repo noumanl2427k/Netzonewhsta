@@ -1,0 +1,16 @@
+No-PC APK Build Method (Free)
+
+Is project ke andar GitHub Actions workflow add hai. Agar aapke paas PC nahi hai, mobile se ye steps follow karein:
+
+1. GitHub app ya browser open karein.
+2. New repository banayein.
+3. Is zip ke andar ke files repository mein upload karein.
+4. Repository ke Actions tab mein jayein.
+5. "Build Android APK" workflow open karein.
+6. "Run workflow" press karein.
+7. Build complete hone ke baad Artifacts section se "WhatsApp-Auto-Reply-debug-apk" download karein.
+8. Zip extract karein; andar app-debug.apk milegi.
+9. APK phone mein install karein.
+10. App open karke Notification Access enable karein.
+
+Note: Direct APK yahan generate nahi ho saki because current ChatGPT sandbox mein Android SDK/Gradle/internet available nahi hai.
